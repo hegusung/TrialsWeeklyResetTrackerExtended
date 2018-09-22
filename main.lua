@@ -39,7 +39,21 @@ TWRTE.lootIds = {
   [134585] = "",
   [134586] = "",
   [138711] = "",
-  [138712] = ""
+  [138712] = "",
+  [139664] = "",
+  [139665] = "",
+  [139666] = "",
+  [139667] = "",
+  [139668] = "",
+  [139669] = "",
+  [139670] = "",
+  [139671] = "",
+  [139672] = "",
+  [139673] = "",
+  [139674] = "",
+  [139675] = "",
+  [141738] = "",
+  [141739] = ""
 }
 
 --saved data
@@ -163,39 +177,53 @@ local function updateCooldownInfo()
     --Hel Ra Citadel, "Assaulting the Citadel"
     [5087] = {
       [87703] = "", --Warrior's Dulled Coffer
-      [87708] = "" --Warrior's Honed Coffer
+      [87708] = "", --Warrior's Honed Coffer
+      [139665] = "", --Warrior's Dulled Coffer
+      [139669] = "" --Warrior's Honed Coffer
     },
     --Aetherian Archive, "The Mage's Tower"
     [5102] = {
       [87702] = "", --Mage's Ignorant Coffer
-      [87707] = "" --Mage's Knowledgeable Coffer
+      [87707] = "", --Mage's Knowledgeable Coffer
+      [139664] = "", --Mage's Ignorant Coffer
+      [139668] = "" --Mage's Knowledgeable Coffer
     },
     --Sanctum Ophidia, "The Oldest Ghost"
     [5171] = {
       [81187] = "", --Serpent's Languid Coffer
       [81188] = "", --Serpent's Coiled Coffer
       [87705] = "", --Serpent's Languid Coffer
-      [87706] = "" --Serpent's Coiled Coffer
+      [87706] = "", --Serpent's Coiled Coffer
+      [139666] = "", --Serpent's Languid Coffer
+      [139667] = "" --Serpent's Coiled Coffer
     },
     --Maw of Lorkaj, "Into the Maw"
     [5352] = {
       [94089] = "", --Dro-m'Athra's Burnished Coffer
-      [94090] = "" --Dro-m'Athra's Shining Coffer
+      [94090] = "", --Dro-m'Athra's Shining Coffer
+      [139670] = "", --Dro-m'Athra's Burnished Coffer
+      [139671] = "" --Dro-m'Athra's Shining Coffer
     },
     --Halls of Fabrication, "Forging the Future"
     [5894] = {
       [126130] = "", --Fabricant's Burnished Coffer
-      [126131] = "" --Fabricant's Shining Coffer
+      [126131] = "", --Fabricant's Shining Coffer
+      [139672] = "", --Fabricant's Burnished Coffer
+      [139673] = "" --Fabricant's Shining Coffer
     },
     --Asylum Sanctorium, "Saint's Mercy"
     [6090] = {
       [134585] = "", --Saint's Beatified Coffer
-      [134586] = "" --Saint's Sanctified Coffer
+      [134586] = "", --Saint's Sanctified Coffer
+      [139674] = "", --Saint's Beatified Coffer
+      [139675] = "" --Saint's Sanctified Coffer
     },
-	[6192] = {
-	  [138711] = "", -- Welkynar's Grounded Coffer
-	  [138712] = "" -- Welkynar's Soaring Coffer
-	}
+    [6192] = {
+      [138711] = "", -- Welkynar's Grounded Coffer
+      [138712] = "", -- Welkynar's Soaring Coffer
+      [141738] = "", -- Welkynar's Grounded Coffer
+      [141739] = "" -- Welkynar's Soaring Coffer
+    }
   }
 
   --only continue if both quest and loot ids are initialized
